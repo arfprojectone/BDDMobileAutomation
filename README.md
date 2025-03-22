@@ -1,1 +1,1 @@
-# bdd-selenium-mobile
+Running - mvn clean test
