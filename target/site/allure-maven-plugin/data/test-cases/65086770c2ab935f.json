@@ -1,0 +1,147 @@
+{
+  "uid" : "65086770c2ab935f",
+  "name" : "[Positive Case] The User Add a Product Review with Login",
+  "fullName" : "src/test/resources/features/ReviewProduct.feature:3",
+  "historyId" : "fa86ded0e67e20e10db0f1e32541da42",
+  "time" : {
+    "start" : 1744109435915,
+    "stop" : 1744109457486,
+    "duration" : 21571
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.setup()",
+    "time" : {
+      "start" : 1744109435917,
+      "stop" : 1744109447348,
+      "duration" : 11431
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user is logged in",
+      "time" : {
+        "start" : 1744109447351,
+        "stop" : 1744109454713,
+        "duration" : 7362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user click added review",
+      "time" : {
+        "start" : 1744109454714,
+        "stop" : 1744109456544,
+        "duration" : 1830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  Review count will increase",
+      "time" : {
+        "start" : 1744109456545,
+        "stop" : 1744109457353,
+        "duration" : 808
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1744109457354,
+      "stop" : 1744109457485,
+      "duration" : 131
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "NB-ArifKurniawan-TECH.local"
+  }, {
+    "name" : "thread",
+    "value" : "6572@NB-ArifKurniawan-TECH.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Review Product Feature"
+  }, {
+    "name" : "story",
+    "value" : "[Positive Case] The User Add a Product Review with Login"
+  }, {
+    "name" : "suite",
+    "value" : "Review Product Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "[Positive Case] The User Add a Product Review with Login"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///Users/arifkurniawasuratno/IdeaProjects/BDDMobileAutomation/src/test/resources/features/ReviewProduct.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.ReviewProduct_feature.Review Product Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65086770c2ab935f.json",
+  "parameterValues" : [ ]
+}

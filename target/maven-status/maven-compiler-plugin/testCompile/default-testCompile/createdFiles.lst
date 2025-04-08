@@ -1,0 +1,7 @@
+org/example/AppTest.class
+stepDefinitions/LoginSteps.class
+stepDefinitions/ReviewProductSteps.class
+stepDefinitions/Hooks.class
+runners/TestRunner.class
+stepDefinitions/BuyProductSteps.class
+stepDefinitions/LogoutSteps.class

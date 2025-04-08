@@ -1,0 +1,207 @@
+{
+  "uid" : "118918afc5c5e4b1",
+  "name" : "[Positive Case] The User Success Added More Then One Product when Logged in",
+  "fullName" : "src/test/resources/features/BuyProduct.feature:11",
+  "historyId" : "af2b7d78dd3a8bffa9129df4a70bc696",
+  "time" : {
+    "start" : 1744109204863,
+    "stop" : 1744109229807,
+    "duration" : 24944
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.setup()",
+    "time" : {
+      "start" : 1744109204866,
+      "stop" : 1744109216279,
+      "duration" : 11413
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The User is logged in",
+      "time" : {
+        "start" : 1744109216281,
+        "stop" : 1744109224076,
+        "duration" : 7795
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The User choose a product",
+      "time" : {
+        "start" : 1744109224079,
+        "stop" : 1744109225448,
+        "duration" : 1369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The User add item",
+      "time" : {
+        "start" : 1744109225450,
+        "stop" : 1744109226860,
+        "duration" : 1410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The User click add to cart button",
+      "time" : {
+        "start" : 1744109226861,
+        "stop" : 1744109227585,
+        "duration" : 724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The User click cart",
+      "time" : {
+        "start" : 1744109227588,
+        "stop" : 1744109228688,
+        "duration" : 1100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The User click proceed to checkout",
+      "time" : {
+        "start" : 1744109228690,
+        "stop" : 1744109228975,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The User will be redirect to checkout page",
+      "time" : {
+        "start" : 1744109228975,
+        "stop" : 1744109229628,
+        "duration" : 653
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1744109229630,
+      "stop" : 1744109229806,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "NB-ArifKurniawan-TECH.local"
+  }, {
+    "name" : "thread",
+    "value" : "6572@NB-ArifKurniawan-TECH.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Buy Product"
+  }, {
+    "name" : "story",
+    "value" : "[Positive Case] The User Success Added More Then One Product when Logged in"
+  }, {
+    "name" : "suite",
+    "value" : "Buy Product"
+  }, {
+    "name" : "testClass",
+    "value" : "[Positive Case] The User Success Added More Then One Product when Logged in"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///Users/arifkurniawasuratno/IdeaProjects/BDDMobileAutomation/src/test/resources/features/BuyProduct.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.BuyProduct_feature.Buy Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "118918afc5c5e4b1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,194 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.features",
+    "children" : [ {
+      "name" : "BuyProduct_feature.Buy Product",
+      "children" : [ {
+        "name" : "[Positive Case] The User Success Added a Product when Logged in",
+        "uid" : "96088717ea82b5c1",
+        "parentUid" : "c16db9829829852e58ec374946005527",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109174596,
+          "stop" : 1744109199731,
+          "duration" : 25135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Positive Case] The User Success Added More Then One Product when Logged in",
+        "uid" : "118918afc5c5e4b1",
+        "parentUid" : "c16db9829829852e58ec374946005527",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109204863,
+          "stop" : 1744109229807,
+          "duration" : 24944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Negative Case] The User Success Added a Product without Login",
+        "uid" : "fac0d6a3bade8dba",
+        "parentUid" : "c16db9829829852e58ec374946005527",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109234853,
+          "stop" : 1744109256656,
+          "duration" : 21803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Negative Case] The User Remove Item on Cart",
+        "uid" : "f0e1fd05cc14b59c",
+        "parentUid" : "c16db9829829852e58ec374946005527",
+        "status" : "broken",
+        "time" : {
+          "start" : 1744109261699,
+          "stop" : 1744109281178,
+          "duration" : 19479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "BuyProduct_feature.Buy Product"
+    }, {
+      "name" : "Login_feature.Login Feature",
+      "children" : [ {
+        "name" : "[Positive Case] The User Login with Valid Credentials",
+        "uid" : "4227d2ccad6905f7",
+        "parentUid" : "b311e72fb301b4600bf8f828106cd7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109286302,
+          "stop" : 1744109302509,
+          "duration" : 16207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "The User Successfully Login", "10203040", "[Positive Case] The User Login with Valid Credentials", "bod@example.com" ]
+      }, {
+        "name" : "[Negative Case] The User Login with Invalid Credentials",
+        "uid" : "cebccfa611aa96c3",
+        "parentUid" : "b311e72fb301b4600bf8f828106cd7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109307558,
+          "stop" : 1744109327355,
+          "duration" : 19797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "The User Failed to Login", "10203040", "[Negative Case] The User Login with Invalid Credentials", "alice@example.com" ]
+      }, {
+        "name" : "[Negative Case] The User Login without Input Username",
+        "uid" : "e9599b353843586a",
+        "parentUid" : "b311e72fb301b4600bf8f828106cd7b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109332387,
+          "stop" : 1744109351342,
+          "duration" : 18955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Message Username is Required Appear", "10203040", "[Negative Case] The User Login without Input Username", "" ]
+      }, {
+        "name" : "[Negative Case] The User Login without Input Password",
+        "uid" : "73c113772889b664",
+        "parentUid" : "b311e72fb301b4600bf8f828106cd7b2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1744109356381,
+          "stop" : 1744109367126,
+          "duration" : 10745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Message Enter Password Appear", "", "[Negative Case] The User Login without Input Password", "bod@example.com" ]
+      } ],
+      "uid" : "Login_feature.Login Feature"
+    }, {
+      "name" : "Logout_feature.Logout Feature",
+      "children" : [ {
+        "name" : "[Positive Case] The User Success Logout",
+        "uid" : "f831466a7ce921f5",
+        "parentUid" : "4688014ad252a233ce0a276b32284a04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109372170,
+          "stop" : 1744109402947,
+          "duration" : 30777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Negative Case] The User Cancel Logout",
+        "uid" : "7f5faf12abea3087",
+        "parentUid" : "4688014ad252a233ce0a276b32284a04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109407978,
+          "stop" : 1744109430866,
+          "duration" : 22888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Logout_feature.Logout Feature"
+    }, {
+      "name" : "ReviewProduct_feature.Review Product Feature",
+      "children" : [ {
+        "name" : "[Positive Case] The User Add a Product Review with Login",
+        "uid" : "65086770c2ab935f",
+        "parentUid" : "1bf8959e2fc2819aad396bf7a8704cb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109435915,
+          "stop" : 1744109457486,
+          "duration" : 21571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Negative Case] The User Reduce a Product Review with Login",
+        "uid" : "f93f4aba55a5b84b",
+        "parentUid" : "1bf8959e2fc2819aad396bf7a8704cb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109462507,
+          "stop" : 1744109483532,
+          "duration" : 21025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[Negative Case] The User Add a Product Review without Login",
+        "uid" : "5599efeec0bb5f73",
+        "parentUid" : "1bf8959e2fc2819aad396bf7a8704cb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744109488562,
+          "stop" : 1744109505209,
+          "duration" : 16647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ReviewProduct_feature.Review Product Feature"
+    } ],
+    "uid" : "src.test.resources.features"
+  } ]
+}

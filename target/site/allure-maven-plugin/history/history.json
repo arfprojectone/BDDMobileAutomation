@@ -1,0 +1,251 @@
+{
+  "b4c44de24cb48e4c5c7b3bccf82ccfe1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96088717ea82b5c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109174596,
+        "stop" : 1744109199731,
+        "duration" : 25135
+      }
+    } ]
+  },
+  "9f071e4f4c26ff73eee8cb0fa0cd2afc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0e1fd05cc14b59c",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.id: com.saucelabs.mydemoapp.android:id/productTV' does not exist in DOM anymore\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.9.1', revision: 'eb2032df7f'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3', java.version: '17.0.14'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [1694ad5e-6171-43f4-9268-65cfd55d34cb, isElementDisplayed {id=00000000-0000-191b-ffff-ffff00000178}]\nCapabilities {appium:app: /Users/arifkurniawasuratno/..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:appWaitActivity: *, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nElement: [[AndroidDriver:  on ANDROID (1694ad5e-6171-43f4-9268-65cfd55d34cb)] -> id: com.saucelabs.mydemoapp.android:id/productTV]\nSession ID: 1694ad5e-6171-43f4-9268-65cfd55d34cb",
+      "time" : {
+        "start" : 1744109261699,
+        "stop" : 1744109281178,
+        "duration" : 19479
+      }
+    } ]
+  },
+  "cb7e762100a560b2a250f50105762d5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cebccfa611aa96c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109307558,
+        "stop" : 1744109327355,
+        "duration" : 19797
+      }
+    } ]
+  },
+  "cc35cce4feb69023844882a89d0a5a5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5599efeec0bb5f73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109488562,
+        "stop" : 1744109505209,
+        "duration" : 16647
+      }
+    } ]
+  },
+  "db21ae1a654bb7168e6c62ab690ebe85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fac0d6a3bade8dba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109234853,
+        "stop" : 1744109256656,
+        "duration" : 21803
+      }
+    } ]
+  },
+  "1b09e5725229feb2f3fb66c1143d7703" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f93f4aba55a5b84b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109462507,
+        "stop" : 1744109483532,
+        "duration" : 21025
+      }
+    } ]
+  },
+  "fa86ded0e67e20e10db0f1e32541da42" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65086770c2ab935f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109435915,
+        "stop" : 1744109457486,
+        "duration" : 21571
+      }
+    } ]
+  },
+  "d612c47daaa414dc44804a30a2e4940b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73c113772889b664",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/arifkurniawasuratno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb: device offline\n \nHost info: host: 'NB-ArifKurniawan-TECH.local', ip: 'fe80:0:0:0:c70:8e76:798c:14dd%en0'\nBuild info: version: '4.9.1', revision: 'eb2032df7f'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3', java.version: '17.0.14'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [null, newSession {capabilities=[{appium:app=/Users/arifkurniawasuratno/IdeaProjects/BDDMobileAutomation/src/app/mda-2.2.0-25.apk, appium:appWaitActivity=*, appium:automationName=UiAutomator2, appium:deviceName=emulator-5554, platformName=ANDROID}], desiredCapabilities=Capabilities {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}}]\nCapabilities {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}",
+      "time" : {
+        "start" : 1744109356381,
+        "stop" : 1744109367126,
+        "duration" : 10745
+      }
+    } ]
+  },
+  "5209df8733715130f7743af347d4fca7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4227d2ccad6905f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109286302,
+        "stop" : 1744109302509,
+        "duration" : 16207
+      }
+    } ]
+  },
+  "f0b69873ebad5976e9a4ee393629cf22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9599b353843586a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109332387,
+        "stop" : 1744109351342,
+        "duration" : 18955
+      }
+    } ]
+  },
+  "6270f23c28a18bd7ce2150745b9c144d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f5faf12abea3087",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109407978,
+        "stop" : 1744109430866,
+        "duration" : 22888
+      }
+    } ]
+  },
+  "af2b7d78dd3a8bffa9129df4a70bc696" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "118918afc5c5e4b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109204863,
+        "stop" : 1744109229807,
+        "duration" : 24944
+      }
+    } ]
+  },
+  "b4efed67bff438890c7ec369901d7405" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f831466a7ce921f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744109372170,
+        "stop" : 1744109402947,
+        "duration" : 30777
+      }
+    } ]
+  }
+}

@@ -1,0 +1,131 @@
+[ {
+  "uid" : "f93f4aba55a5b84b",
+  "name" : "[Negative Case] The User Reduce a Product Review with Login",
+  "time" : {
+    "start" : 1744109462507,
+    "stop" : 1744109483532,
+    "duration" : 21025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f5faf12abea3087",
+  "name" : "[Negative Case] The User Cancel Logout",
+  "time" : {
+    "start" : 1744109407978,
+    "stop" : 1744109430866,
+    "duration" : 22888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96088717ea82b5c1",
+  "name" : "[Positive Case] The User Success Added a Product when Logged in",
+  "time" : {
+    "start" : 1744109174596,
+    "stop" : 1744109199731,
+    "duration" : 25135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65086770c2ab935f",
+  "name" : "[Positive Case] The User Add a Product Review with Login",
+  "time" : {
+    "start" : 1744109435915,
+    "stop" : 1744109457486,
+    "duration" : 21571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5599efeec0bb5f73",
+  "name" : "[Negative Case] The User Add a Product Review without Login",
+  "time" : {
+    "start" : 1744109488562,
+    "stop" : 1744109505209,
+    "duration" : 16647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73c113772889b664",
+  "name" : "[Negative Case] The User Login without Input Password",
+  "time" : {
+    "start" : 1744109356381,
+    "stop" : 1744109367126,
+    "duration" : 10745
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e9599b353843586a",
+  "name" : "[Negative Case] The User Login without Input Username",
+  "time" : {
+    "start" : 1744109332387,
+    "stop" : 1744109351342,
+    "duration" : 18955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4227d2ccad6905f7",
+  "name" : "[Positive Case] The User Login with Valid Credentials",
+  "time" : {
+    "start" : 1744109286302,
+    "stop" : 1744109302509,
+    "duration" : 16207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fac0d6a3bade8dba",
+  "name" : "[Negative Case] The User Success Added a Product without Login",
+  "time" : {
+    "start" : 1744109234853,
+    "stop" : 1744109256656,
+    "duration" : 21803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f831466a7ce921f5",
+  "name" : "[Positive Case] The User Success Logout",
+  "time" : {
+    "start" : 1744109372170,
+    "stop" : 1744109402947,
+    "duration" : 30777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cebccfa611aa96c3",
+  "name" : "[Negative Case] The User Login with Invalid Credentials",
+  "time" : {
+    "start" : 1744109307558,
+    "stop" : 1744109327355,
+    "duration" : 19797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0e1fd05cc14b59c",
+  "name" : "[Negative Case] The User Remove Item on Cart",
+  "time" : {
+    "start" : 1744109261699,
+    "stop" : 1744109281178,
+    "duration" : 19479
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "118918afc5c5e4b1",
+  "name" : "[Positive Case] The User Success Added More Then One Product when Logged in",
+  "time" : {
+    "start" : 1744109204863,
+    "stop" : 1744109229807,
+    "duration" : 24944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo 'Starting Appium Server...'
                 sh 'appium --log appium.log &'
-                sleep 10
+                sleep 5
             }
         }
 
@@ -24,33 +24,30 @@ pipeline {
             }
         }
 
-        stage('Prepare HTML Report') {
+        stage('Generate Allure Report') {
             steps {
-                echo 'Preparing HTML report folder...'
-                sh 'mkdir -p target/html-report'
-                sh 'cp target/cucumber-reports.html target/html-report/index.html'
+                echo 'Generating Allure report...'
+                sh 'mvn allure:report'
             }
         }
 
-        stage('Publish Cucumber HTML Report') {
+        stage('Publish Allure Report') {
             steps {
-                echo 'Publishing HTML report...'
-                publishHTML([
-                    reportDir: 'target/html-report',
-                    reportFiles: 'index.html',
-                    reportName: 'Cucumber HTML Report',
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true
+                echo 'Publishing Allure report...'
+                allure([
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'target/allure-results']]
                 ])
             }
         }
 
-        stage('Archive JSON and XML Reports') {
+        stage('Archive Reports') {
             steps {
-                echo 'Archiving JSON and XML reports...'
-                archiveArtifacts artifacts: 'target/cucumber-report.json', fingerprint: true
-                archiveArtifacts artifacts: 'target/cucumber-report.xml', fingerprint: true
+                echo 'Archiving reports...'
+                archiveArtifacts artifacts: 'target/cucumber-report.*', fingerprint: true
+                archiveArtifacts artifacts: 'target/cucumber-reports.*', fingerprint: true
+                archiveArtifacts artifacts: 'target/site/allure-maven-plugin/index.html', fingerprint: true
             }
         }
     }

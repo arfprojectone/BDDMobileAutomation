@@ -62,24 +62,40 @@
       <version>7.7.0</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- Allure Report (Opsional) -->
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-cucumber7-jvm</artifactId>
+      <version>2.24.0</version>
+    </dependency>
   </dependencies>
 
   <build>
     <plugins>
-      <!-- Plugin untuk menjalankan tes dan hasil report cucumber -->
+      <!-- Plugin untuk menjalankan tes dan hasil report cucumber dan allure -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M5</version>
+        <version>3.0.0-M9</version>
         <configuration>
           <includes>
             <include>**/TestRunner.java</include>
           </includes>
           <systemPropertyVariables>
             <cucumber.publish.quiet>true</cucumber.publish.quiet>
+            <allure.results.directory>target/allure-results</allure.results.directory>
           </systemPropertyVariables>
         </configuration>
       </plugin>
+
+      <!-- Allure Report Plugin -->
+      <plugin>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-maven</artifactId>
+        <version>2.11.2</version>
+      </plugin>
+
     </plugins>
   </build>
 </project>

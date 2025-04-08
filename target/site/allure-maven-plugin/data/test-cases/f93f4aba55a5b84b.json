@@ -1,0 +1,147 @@
+{
+  "uid" : "f93f4aba55a5b84b",
+  "name" : "[Negative Case] The User Reduce a Product Review with Login",
+  "fullName" : "src/test/resources/features/ReviewProduct.feature:8",
+  "historyId" : "1b09e5725229feb2f3fb66c1143d7703",
+  "time" : {
+    "start" : 1744109462507,
+    "stop" : 1744109483532,
+    "duration" : 21025
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.setup()",
+    "time" : {
+      "start" : 1744109462508,
+      "stop" : 1744109473586,
+      "duration" : 11078
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user is logged in",
+      "time" : {
+        "start" : 1744109473587,
+        "stop" : 1744109480811,
+        "duration" : 7224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user click reducing review",
+      "time" : {
+        "start" : 1744109480812,
+        "stop" : 1744109482123,
+        "duration" : 1311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  Review count will decrease",
+      "time" : {
+        "start" : 1744109482124,
+        "stop" : 1744109483397,
+        "duration" : 1273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1744109483398,
+      "stop" : 1744109483532,
+      "duration" : 134
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "NB-ArifKurniawan-TECH.local"
+  }, {
+    "name" : "thread",
+    "value" : "6572@NB-ArifKurniawan-TECH.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Review Product Feature"
+  }, {
+    "name" : "story",
+    "value" : "[Negative Case] The User Reduce a Product Review with Login"
+  }, {
+    "name" : "suite",
+    "value" : "Review Product Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "[Negative Case] The User Reduce a Product Review with Login"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///Users/arifkurniawasuratno/IdeaProjects/BDDMobileAutomation/src/test/resources/features/ReviewProduct.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.ReviewProduct_feature.Review Product Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f93f4aba55a5b84b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,177 @@
+{
+  "uid" : "f831466a7ce921f5",
+  "name" : "[Positive Case] The User Success Logout",
+  "fullName" : "src/test/resources/features/Logout.feature:3",
+  "historyId" : "b4efed67bff438890c7ec369901d7405",
+  "time" : {
+    "start" : 1744109372170,
+    "stop" : 1744109402947,
+    "duration" : 30777
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.setup()",
+    "time" : {
+      "start" : 1744109372174,
+      "stop" : 1744109389676,
+      "duration" : 17502
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The User is logged in",
+      "time" : {
+        "start" : 1744109389681,
+        "stop" : 1744109396953,
+        "duration" : 7272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The User click the menu",
+      "time" : {
+        "start" : 1744109396954,
+        "stop" : 1744109398209,
+        "duration" : 1255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The User click the logout submenu",
+      "time" : {
+        "start" : 1744109398209,
+        "stop" : 1744109400138,
+        "duration" : 1929
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The User click logout button",
+      "time" : {
+        "start" : 1744109400139,
+        "stop" : 1744109400236,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The User is successfully logged out",
+      "time" : {
+        "start" : 1744109400236,
+        "stop" : 1744109402809,
+        "duration" : 2573
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.teardown()",
+    "time" : {
+      "start" : 1744109402810,
+      "stop" : 1744109402946,
+      "duration" : 136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "NB-ArifKurniawan-TECH.local"
+  }, {
+    "name" : "thread",
+    "value" : "6572@NB-ArifKurniawan-TECH.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Logout Feature"
+  }, {
+    "name" : "story",
+    "value" : "[Positive Case] The User Success Logout"
+  }, {
+    "name" : "suite",
+    "value" : "Logout Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "[Positive Case] The User Success Logout"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///Users/arifkurniawasuratno/IdeaProjects/BDDMobileAutomation/src/test/resources/features/Logout.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Logout_feature.Logout Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f831466a7ce921f5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "The element 'By.id: com.saucelabs.mydemoapp.android:id/productTV' does not exist in DOM anymore\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.9.1', revision: 'eb2032df7f'\nSystem info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3', java.version: '17.0.14'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [1694ad5e-6171-43f4-9268-65cfd55d34cb, isElementDisplayed {id=00000000-0000-191b-ffff-ffff00000178}]\nCapabilities {appium:app: /Users/arifkurniawasuratno/..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:appWaitActivity: *, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nElement: [[AndroidDriver:  on ANDROID (1694ad5e-6171-43f4-9268-65cfd55d34cb)] -> id: com.saucelabs.mydemoapp.android:id/productTV]\nSession ID: 1694ad5e-6171-43f4-9268-65cfd55d34cb",
+      "children" : [ {
+        "name" : "[Negative Case] The User Remove Item on Cart",
+        "uid" : "f0e1fd05cc14b59c",
+        "parentUid" : "9759bf17339183563252aad8289a3214",
+        "status" : "broken",
+        "time" : {
+          "start" : 1744109261699,
+          "stop" : 1744109281178,
+          "duration" : 19479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9759bf17339183563252aad8289a3214"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

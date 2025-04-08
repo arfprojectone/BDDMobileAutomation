@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="335.964" tests="13" skipped="0" failures="2" errors="0">
+<testcase classname="Buy Product" name="[Positive Case] The User Success Added a Product when Logged in" time="30.227">
+<system-out><![CDATA[
+Given The User is logged in.................................................passed
+When The User choose a product..............................................passed
+And The User click add to cart button.......................................passed
+And The User click cart.....................................................passed
+And The User click proceed to checkout......................................passed
+Then The User will be redirect to checkout page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Buy Product" name="[Positive Case] The User Success Added More Then One Product when Logged in" time="29.963">
+<system-out><![CDATA[
+Given The User is logged in.................................................passed
+When The User choose a product..............................................passed
+And The User add item.......................................................passed
+And The User click add to cart button.......................................passed
+And The User click cart.....................................................passed
+And The User click proceed to checkout......................................passed
+Then The User will be redirect to checkout page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Buy Product" name="[Negative Case] The User Success Added a Product without Login" time="26.819">
+<system-out><![CDATA[
+Given The User has opened the app...........................................passed
+When The User choose a product..............................................passed
+And The User click add to cart button.......................................passed
+And The User click cart.....................................................passed
+And The User click proceed to checkout......................................passed
+Then The User will be redirect to login page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Buy Product" name="[Negative Case] The User Remove Item on Cart" time="24.475">
+<failure type="org.openqa.selenium.StaleElementReferenceException" message="The element 'By.id: com.saucelabs.mydemoapp.android:id/productTV' does not exist in DOM anymore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [1694ad5e-6171-43f4-9268-65cfd55d34cb, isElementDisplayed {id=00000000-0000-191b-ffff-ffff00000178}]
+Capabilities {appium:app: /Users/arifkurniawasuratno/..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:appWaitActivity: *, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (1694ad5e-6171-43f4-9268-65cfd55d34cb)] -&gt; id: com.saucelabs.mydemoapp.android:id/productTV]
+Session ID: 1694ad5e-6171-43f4-9268-65cfd55d34cb">
+<![CDATA[org.openqa.selenium.StaleElementReferenceException: The element 'By.id: com.saucelabs.mydemoapp.android:id/productTV' does not exist in DOM anymore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [1694ad5e-6171-43f4-9268-65cfd55d34cb, isElementDisplayed {id=00000000-0000-191b-ffff-ffff00000178}]
+Capabilities {appium:app: /Users/arifkurniawasuratno/..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:appWaitActivity: *, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (1694ad5e-6171-43f4-9268-65cfd55d34cb)] -> id: com.saucelabs.mydemoapp.android:id/productTV]
+Session ID: 1694ad5e-6171-43f4-9268-65cfd55d34cb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at pages.BuyProductPage.waitForElementToBeVisible(BuyProductPage.java:129)
+	at pages.BuyProductPage.verifyTextMyCart(BuyProductPage.java:57)
+	at stepDefinitions.BuyProductSteps.the_user_click_cart(BuyProductSteps.java:27)
+	at ✽.The User click cart(file:///Users/arifkurniawasuratno/IdeaProjects/BDDMobileAutomation/src/test/resources/features/BuyProduct.feature:32)
+]]>
+</failure>
+<system-out><![CDATA[
+Given The User has opened the app...........................................passed
+When The User choose a product..............................................passed
+And The User click add to cart button.......................................passed
+And The User click cart.....................................................failed
+And The User click remove item..............................................skipped
+Then Item will be deleted...................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="&lt;testcases&gt; - Example #1.1" time="21.249">
+<system-out><![CDATA[
+Given The User has opened the app...........................................passed
+And The User click menu.....................................................passed
+And The User click login submenu............................................passed
+When The User input username "bod@example.com"..............................passed
+And The User input password "10203040"......................................passed
+And The User click login button.............................................passed
+Then "The User Successfully Login"..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="&lt;testcases&gt; - Example #1.2" time="24.813">
+<system-out><![CDATA[
+Given The User has opened the app...........................................passed
+And The User click menu.....................................................passed
+And The User click login submenu............................................passed
+When The User input username "alice@example.com"............................passed
+And The User input password "10203040"......................................passed
+And The User click login button.............................................passed
+Then "The User Failed to Login".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="&lt;testcases&gt; - Example #1.3" time="23.969">
+<system-out><![CDATA[
+Given The User has opened the app...........................................passed
+And The User click menu.....................................................passed
+And The User click login submenu............................................passed
+When The User input username "".............................................passed
+And The User input password "10203040"......................................passed
+And The User click login button.............................................passed
+Then "Message Username is Required Appear"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="&lt;testcases&gt; - Example #1.4" time="15.76">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/arifkurniawasuratno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb: device offline
+ 
+Host info: host: 'NB-ArifKurniawan-TECH.local', ip: 'fe80:0:0:0:c70:8e76:798c:14dd%en0'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=/Users/arifkurniawasuratno/IdeaProjects/BDDMobileAutomation/src/app/mda-2.2.0-25.apk, appium:appWaitActivity=*, appium:automationName=UiAutomator2, appium:deviceName=emulator-5554, platformName=ANDROID}], desiredCapabilities=Capabilities {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}}]
+Capabilities {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/arifkurniawasuratno/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb: device offline
+ 
+Host info: host: 'NB-ArifKurniawan-TECH.local', ip: 'fe80:0:0:0:c70:8e76:798c:14dd%en0'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3', java.version: '17.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=/Users/arifkurniawasuratno/IdeaProjects/BDDMobileAutomation/src/app/mda-2.2.0-25.apk, appium:appWaitActivity=*, appium:automationName=UiAutomator2, appium:deviceName=emulator-5554, platformName=ANDROID}], desiredCapabilities=Capabilities {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}}]
+Capabilities {app: /Users/arifkurniawasuratno/..., appWaitActivity: *, automationName: UiAutomator2, deviceName: emulator-5554, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+	at config.DriverManager.initializeDriver(DriverManager.java:20)
+	at stepDefinitions.Hooks.setup(Hooks.java:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given The User has opened the app...........................................skipped
+And The User click menu.....................................................skipped
+And The User click login submenu............................................skipped
+When The User input username "bod@example.com"..............................skipped
+And The User input password ""..............................................skipped
+And The User click login button.............................................skipped
+Then "Message Enter Password Appear"........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Logout Feature" name="[Positive Case] The User Success Logout" time="35.791">
+<system-out><![CDATA[
+Given The User is logged in.................................................passed
+When The User click the menu................................................passed
+And The User click the logout submenu.......................................passed
+And The User click logout button............................................passed
+Then The User is successfully logged out....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout Feature" name="[Negative Case] The User Cancel Logout" time="27.893">
+<system-out><![CDATA[
+Given The User is logged in.................................................passed
+When The User click the menu................................................passed
+And The User click the logout submenu.......................................passed
+And The User click cancel button............................................passed
+Then The User is successfully cancel logged out.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review Product Feature" name="[Positive Case] The User Add a Product Review with Login" time="26.595">
+<system-out><![CDATA[
+Given The user is logged in.................................................passed
+When The user click added review............................................passed
+Then Review count will increase.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review Product Feature" name="[Negative Case] The User Reduce a Product Review with Login" time="26.034">
+<system-out><![CDATA[
+Given The user is logged in.................................................passed
+When The user click reducing review.........................................passed
+Then Review count will decrease.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review Product Feature" name="[Negative Case] The User Add a Product Review without Login" time="21.659">
+<system-out><![CDATA[
+Given The user has opened the app...........................................passed
+When The user click added review............................................passed
+Then Review count will increase.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
