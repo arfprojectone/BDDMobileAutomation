@@ -24,12 +24,20 @@ pipeline {
             }
         }
 
+        stage('Prepare HTML Report') {
+            steps {
+                echo 'Preparing HTML report folder...'
+                sh 'mkdir -p target/html-report'
+                sh 'cp target/cucumber-reports.html target/html-report/index.html'
+            }
+        }
+
         stage('Publish Cucumber HTML Report') {
             steps {
                 echo 'Publishing HTML report...'
                 publishHTML([
-                    reportDir: 'target',
-                    reportFiles: 'cucumber-reports.html',
+                    reportDir: 'target/html-report',
+                    reportFiles: 'index.html',
                     reportName: 'Cucumber HTML Report',
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
