@@ -11,6 +11,8 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports.html",
+                "json:target/cucumber-report.json",
+                "junit:target/cucumber-report.xml",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         monochrome = true
