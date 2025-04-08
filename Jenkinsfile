@@ -1,16 +1,6 @@
 pipeline {
     agent any
 
-//     environment {
-//         ANDROID_HOME = "/path/to/android/sdk" // Ganti dengan SDK kamu
-//         PATH = "$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
-//     }
-//
-//     tools {
-//         maven 'Maven_3'     // Sesuaikan dengan nama Maven di Jenkins
-//         jdk 'JDK_11'        // Sesuaikan juga dengan JDK kamu
-//     }
-
     stages {
 
         stage('Checkout') {
@@ -41,6 +31,8 @@ pipeline {
                     reportDir: 'target',
                     reportFiles: 'cucumber-report.html',
                     reportName: 'Cucumber HTML Report',
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
                     keepAll: true
                 ])
             }
