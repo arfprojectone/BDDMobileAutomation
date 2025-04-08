@@ -29,7 +29,7 @@ pipeline {
                 echo 'Publishing HTML report...'
                 publishHTML([
                     reportDir: 'target',
-                    reportFiles: 'cucumber-report.html',
+                    reportFiles: 'cucumber-reports.html',
                     reportName: 'Cucumber HTML Report',
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
