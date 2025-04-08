@@ -45,7 +45,6 @@ pipeline {
         stage('Archive Reports') {
             steps {
                 echo 'Archiving reports...'
-                archiveArtifacts artifacts: 'target/cucumber-report.*', fingerprint: true
                 archiveArtifacts artifacts: 'target/cucumber-reports.*', fingerprint: true
                 archiveArtifacts artifacts: 'target/site/allure-maven-plugin/index.html', fingerprint: true
             }
