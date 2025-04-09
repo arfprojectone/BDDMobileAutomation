@@ -24,6 +24,13 @@ pipeline {
             }
         }
 
+        stage('Generate Cucumber JUnit Report') {
+            steps {
+                echo 'Generating Cucumber JUnit report...'
+                sh 'mvn verify'
+            }
+        }
+
         stage('Generate Allure Report') {
             steps {
                 echo 'Generating Allure report...'
@@ -56,6 +63,8 @@ pipeline {
         always {
             echo 'Stopping Appium server...'
             sh "pkill -f appium || true"
+            echo 'Publishing JUnit test results...'
+            junit testResults: 'target/cucumber-report.xml'
         }
 
         success {
