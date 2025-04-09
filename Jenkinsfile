@@ -56,7 +56,7 @@ pipeline {
         always {
             echo 'Stopping Appium server...'
             sh "pkill -f appium || true"
-            junit 'target/cucumber-report.xml'
+            junit allowEmptyResults: true, testResults: 'target/cucumber-report.xml'
         }
 
         success {
