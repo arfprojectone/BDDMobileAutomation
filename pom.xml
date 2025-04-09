@@ -61,7 +61,6 @@
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>7.7.0</version>
-      <scope>test</scope>
     </dependency>
 
     <!-- Allure Report (Opsional) -->
@@ -88,28 +87,6 @@
             <allure.results.directory>target/allure-results</allure.results.directory>
           </systemPropertyVariables>
         </configuration>
-      </plugin>
-
-      <plugin>
-        <groupId>net.masterthought</groupId>
-        <artifactId>maven-cucumber-reporting</artifactId>
-        <version>5.7.0</version>
-        <executions>
-          <execution>
-            <id>generate-cucumber-reports</id>
-            <phase>verify</phase>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-            <configuration>
-              <projectName>BDDMobileAutomation</projectName>
-              <outputDirectory>${project.build.directory}/cucumber-report</outputDirectory>
-              <jsonFiles>
-                <param>${project.build.directory}/cucumber.json</param>
-              </jsonFiles>
-            </configuration>
-          </execution>
-        </executions>
       </plugin>
 
       <!-- Allure Report Plugin -->
